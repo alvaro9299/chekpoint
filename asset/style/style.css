@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    min-height: 10vh;
+}
+main{
+    min-height:75vh ;
+}
+footer{
+min-height: 15vh;
+}
+
+
+.logo{
+    display: flex;
+    width: 60px;
+    object-fit: cover;
+    
+}
+.titulo{ 
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+h1{
+    display: flex;
+}
+.rojo{
+    color: red;
+}
+
+  
+.index_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.navbar1 a{
+    text-decoration: none;
+    color: white;
+    background-color:red ;
+    border-radius:40px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 10px;
+    padding: 9px;
+}
+.ima_banner{
+    width: 100vw;
+    height: 200px;
+    object-fit: cover;
+}
+.ima{
+    width: 250px;
+    height: 200px;
+}   
+.tex_banner{
+    text-align: center;
+    font-size: 20px;
+}
+.h02{
+    text-align: center;
+    margin: 30px;
+}
+.imag{
+    display: flex;
+    justify-content: space-around;
+}
+.h03{
+    text-align: center;
+    margin:30px ;
+}
+section{
+    display: flex;
+}
+.lista{
+    display: flex;
+    
+
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+}    
+table{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+}
+form{
+    width: 300px;
+    color: white;
+}
+.foot{
+    display: flex;justify-content: space-around;
+   background-color: black; 
+} 
+i
+    
