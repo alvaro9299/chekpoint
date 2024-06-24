@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,124 +8,133 @@
     <link rel="stylesheet" href="./asset/style/style.css">
     <link rel="shortcut icon" href="./asset/style/images/image-6.png" type="image/x-icon">
 </head>
+
 <body>
     <div class="structure">
         <header>
-           
             <div class="index_header">
                 <div class="titulo">
-                    <h1 > 
+                    <img class="logo" src="./asset/style/images/image-6.png" alt="">
+                    <h1>
                         <span class="rojo">JP</span>
                         <span>Travelers</span>
                     </h1>
-                    <img class="logo" src="./asset/style/images/image-1.jpg" alt="">
                 </div>
 
-                   <nav class="navbar1">
+                <nav class="navbar1">
                     <a href="#">Home</a>
                     <a href="#">Travels</a>
                     <a href="#">Buy Packs</a>
-                    </nav>
-                </div>
-                
-            </header>
-            <main>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main_bef">
+
             <div class="baner">
                 <img class="ima_banner" src="./asset/style/images/image-2.jpg" alt="travel">
-                <p class="tex_banner">
-                    <span>Choose your</span>
-                    <span class="rojo">best travel</span>
-                    <span>option!</span>
 
+                <p class="tex_banner">
+                    Choose your <span class="rojo">best travel</span>options:
                 </p>
             </div>
+
             <section class="sect">
-                <h2 class="h02"> 
+                <h2 class="h02">
                     More information about your options
                 </h2>
-               
-                <div class="imag">
-                    <img class="ima" src="./asset/style/images/image-3.jpg" alt="">
-                    <img class="ima" src="./asset/style/images/image-4.jpg" alt="">
-                    <img class="ima" src="./asset/style/images/image-5.jpg" alt="">
+
+                <div class="container">
+                    <div class="ima_p">
+                        <img class="ima" src="./asset/style/images/image-3.jpg" alt="">
+                        <p class="p_tex">Osaka</p>
+                    </div>
+                    <div class="ima_p">
+                        <img class="ima" src="./asset/style/images/image-4.jpg" alt="">
+                        <p class="p_tex">Kyoto</p>
+                    </div>
+                    <div class="ima_p">
+                        <img class="ima" src="./asset/style/images/image-5.jpg" alt="">
+                        <p class="p_tex">Tokyo</p>
+                    </div>
                 </div>
             </section>
+
+
             <h3 class="h03">
                 We leave you more information about what the packages incluide.
             </h3>
-            <div class="lista">
-                <ul>
-                    <li>Advice on hotels and how to incluide them in the pack</li>
-                    <li>Direct contac throughout the trip with our staff</li>
-                    <li>We incluide a discount for the next package you compress</li>
-                </ul>
-            </div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Price(USD)full </th>
-                        <th>Price(USD)per month(12)</th>
-                        <th>City</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>3706</td>
-                        <td>310</td>
-                        <td>Osaka</td>
-                    </tr>
-                    <tr>
-                        <td>4050</td>
-                        <td>339</td>
-                        <td>Kyoto</td>
-                    </tr>
-                    <tr>
-                        <td>3900</td>
-                        <td>327</td>
-                        <td>Tokyo</td>
-                    </tr>
-                </tbody>
-                
-            </table>
+            <section class="lis_tab">
+                <div class="lista">
+                    <ul>
+                        <li>Advice on hotels and how to incluide them in the pack</li>
+                        <li>Direct contac throughout the trip with our staff</li>
+                        <li>We incluide a discount for the next package you compress</li>
+                    </ul>
+                </div>
 
+                <div class="tabla">
+                    <table>
+                        <caption>Price depending on the city: </caption>
+                        <thead>
+                            <tr>
+                                <th>Price(USD)full </th>
+                                <th>Price(USD)per month(12)</th>
+                                <th>City</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>3706</td>
+                                <td>310</td>
+                                <td>Osaka</td>
+                            </tr>
+                            <tr>
+                                <td>4050</td>
+                                <td>339</td>
+                                <td>Kyoto</td>
+                            </tr>
+                            <tr>
+                                <td>3900</td>
+                                <td>327</td>
+                                <td>Tokyo</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+            </section>
         </main>
+
         <footer>
-              <div class="foot">
-                  <p> MindHub 
-                      <span class="rojo">Cohort N</span>
-                    </p>
-                  
-                   
-                    <form action="./show_data.txt">
-                        <fieldset>
-                            <legend>Have you already traveled with us </legend>
-                            <label>
-                                yes
-                                <input type="radio" name="name" id="yes" value="yes" required>
-                            </label>
-                            <label>
-                                no
-                                <input type="radio" name="name" id="no" value="no" required>
-                            </label>
-                        </fieldset>
-
-                        <fieldset class="sumit">
-                            
-                            <label class="cheq">
-                                Suscribe:
-                                <input type="checkbox" name="suscribe" id="cheq" required value="subcrit">
-                            </label>
-                            
-                            <button>Send</button>
-                            
-                        </fieldset>
-                    </form>
-                     <nav>
-                        <a href="mailto:jptravelers@gmail.com">jptravelers@gmail.com</a>
-                     </nav>
-
-              </div>
+            <div class="foot">
+                <p class="mail"> MindHub
+                    <span class="rojo">Cohort N</span>
+                </p>
+                <form action="./show_data.html">
+                    <fieldset class="field">
+                        <legend>Have you already traveled with us </legend>
+                        <label class="yes">
+                            Yes
+                            <input type="radio" name="name" id="yes" value="yes" required>
+                        </label>
+                        <label class="no">
+                            No
+                            <input type="radio" name="name" id="no" value="no" required>
+                        </label>
+                        <label class="cheq">
+                            Suscribe:
+                            <input type="text" name="suscribe" id="texto" placeholder="suscribe">
+                        </label>
+                        <button>Send</button>
+                    </fieldset>
+                </form>
+                <nav>
+                    <a class="mail" href="mailto:jptravelers@gmail.com">jptravelers@gmail.com</a>
+                </nav>
+            </div>
         </footer>
     </div>
 </body>
+
 </html>
